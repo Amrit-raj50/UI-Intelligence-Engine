@@ -170,7 +170,7 @@ export default function AuthPage() {
                       isLoading={isLoading}
                       icon={ArrowRight}
                     >
-                      {mode === 'login' ? 'Initialize Engine' : 'Begin Deployment'}
+                      {mode === 'Sign In' ? 'Initialize Engine' : 'Begin Deployment'}
                     </Button>
                   </div>
                 </form>
